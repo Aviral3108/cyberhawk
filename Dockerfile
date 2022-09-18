@@ -16,10 +16,10 @@ RUN add-apt-repository -y ppa:ubuntu-toolchain-r/test
 RUN apt-get update -y && apt-get install -y gcc g++
 
 # Install OpenJDK
-RUN apt-get update && apt-get install -y apt-utils && apt-get install -y curl
-RUN mkdir -p /usr/share/man/man1/
-RUN apt-get update -y
-RUN apt-get install -y default-jdk
+# RUN apt-get update && apt-get install -y apt-utils && apt-get install -y curl
+# RUN mkdir -p /usr/share/man/man1/
+# RUN apt-get update -y
+# RUN apt-get install -y default-jdk
 
 #Install apache2 and PHP
 RUN apt-get update  
