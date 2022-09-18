@@ -37,7 +37,7 @@
   </head>
   <body onload="ready()">
     <div class="container">
-      <h1>Online Compiler</h1> <!--  -->
+      <h1>Compiler</h1> <!--  -->
       <button title="Upload File" onclick="upload()" class="download-btn"><i class="fas fa-file-upload"></i></button>
       <button title="Download Code" onclick="download()" class="download-btn"><i class="fa fa-download"></i></button>
       <div class="semicontainer">

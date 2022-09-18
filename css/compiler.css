@@ -3,7 +3,7 @@ html,body{
   padding:0;
   height:100%;
   width: 100%;
-  background-color: #f3f7f7;
+  background-color: #3b7777;
 }
 .container{
   width: 60%;
@@ -33,12 +33,13 @@ html,body{
   font-size: 20px;
   font-family: calibri;
   margin-bottom: 20px;
+  color: #ffffff;
 }
 #output{
   background-color: white;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   font-size: 16px;
-  max-width: 90%;
+  max-width: 100%;
   white-space: -moz-pre-wrap;
   white-space:-o-pre-wrap;
   white-space: -pre-wrap;
@@ -55,14 +56,15 @@ html,body{
   float: right;
 }
 h1{
-  margin-top: 15px;
-  margin-bottom: 15px;
-  color: #738f93;
+  margin-top: 25px;
+  margin-bottom: 28px;
+  color: #ffffff;
+  text-align: center;
 }
 /* Upload & Download */
 
 .download-btn{
-  background-color: #738f93; /* Blue */
+  background-color: #296268; /* Blue */
   border: none;
   color: white;
   padding: 8px 20px;
@@ -70,12 +72,14 @@ h1{
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-
+  border-radius: 50%;
+  margin-right: 20px;
 }
 
 .download-btn:hover {
   background-color: #008CBA; /* Green */
   color: white;
+  border-radius: 50%;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   cursor:pointer;
 }
@@ -102,7 +106,7 @@ label{
   color:black;
   font-family: calibri;
   font-size: 20px;
-  color: #738f93;
+  color: #ffffff;
 }
 .button {
   background-color: #4CAF50; /* Green */
